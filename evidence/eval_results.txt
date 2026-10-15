@@ -1,0 +1,22 @@
+﻿[labels] flagged 13 rows, labelled 13; missing=set(), unlabelled=set()
+[labels] justified precision 4/4, recall 4/4, fabricated (justified with a wrong note) = 0
+[adversarial] PASS: flood note, wrong route -> None
+[adversarial] PASS: flood note, week after its window -> None
+[adversarial] PASS: flood note, week before its window -> None
+[adversarial] PASS: 'not significantly affected' note -> None
+[adversarial] PASS: road-improvement note -> None
+[adversarial] PASS: toll note for routes not in dataset -> None
+[adversarial] PASS: 'stable demand' note -> None
+[adversarial] PASS: 'returned to normal' note -> None
+[adversarial] PASS: 'no rate change' note -> None
+[adversarial] PASS: diesel note, months too late -> None
+[adversarial] PASS: all-routes note, right week (control) -> N003
+[adversarial] PASS: wrong note ranked first, right second -> N001
+[injected] PASS: x1.25 on Kolkata-Bhubaneswar 2024-09-09 -> flagged, unexplained
+[injected] PASS: x1.2 on Delhi-Chennai 2025-08-04 -> flagged, unexplained
+[injected] original flags all still present: True
+[retrieval] PASS: N002 in top 6 for Ahmedabad-Mumbai 2025-01-20: ['N002', 'N005', 'N001', 'N008', 'N003', 'N007']
+[retrieval] PASS: N001 in top 6 for Chennai-Bangalore 2025-02-24: ['N001', 'N002', 'N009', 'N008', 'N003', 'N005']
+[retrieval] PASS: N001 in top 6 for Chennai-Bangalore 2025-03-03: ['N001', 'N002', 'N009', 'N008', 'N003', 'N005']
+[retrieval] PASS: N003 in top 6 for Mumbai-Delhi 2025-05-12: ['N002', 'N005', 'N001', 'N003', 'N008', 'N007']
+ALL CHECKS PASSED

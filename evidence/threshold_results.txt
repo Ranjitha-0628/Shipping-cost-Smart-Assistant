@@ -1,0 +1,7 @@
+﻿weeks with an own-history baseline: 721
+typical weekly change vs own history: std 4.2%
+rise >= 5% and z >= 2: 23 rows
+rise >= 5% and z >= 3: 9 rows
+rise >= 7% and z >= 2: 13 rows
+rise >= 8% and z >= 2: 9 rows
+rise >= 10% alone: 8 rows

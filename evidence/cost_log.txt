@@ -1,0 +1,6 @@
+﻿LLM calls:            0
+LLM input tokens:     0
+LLM output tokens:    0
+Embedding tokens (notes, embedded once): 303
+Embedding tokens (queries, 13 flagged rows): 394
+Cost: $0 (local open-source model BAAI/bge-small-en-v1.5, no API)
